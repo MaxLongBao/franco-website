@@ -1,0 +1,32 @@
+body {
+  background-color: #f1efe8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-header {
+  font-family: "Cambria";
+}
+
+.button-signup {
+  background-color: #aa4528;
+  border-color: #aa4528;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 3em;
+  padding: 0 2em;
+  vertical-align: middle;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #d3d4d4;
+  border-radius: 3px;
+  font-weight: 600;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+}

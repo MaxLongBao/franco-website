@@ -5,7 +5,7 @@ function Questionnaire() {
   return (
     <div>
       <Navbar />
-      <main className='px-32 mt-4 h-svh'>
+      <main className='md:px-32 mt-4 h-svh'>
         <div className='text-center'>
           <h1 className='text-2xl'>Tell us about yourself</h1>
           <div className='h-svh'>

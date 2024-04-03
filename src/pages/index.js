@@ -1,7 +1,6 @@
 import * as React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import franco from "../images/franco.jpeg";
 import "../css/index.css";
 
 const IndexPage = () => {
@@ -47,6 +46,45 @@ const IndexPage = () => {
         <h4 className="text-2xl px-6 text-white">Recognizing the unique needs of each investor, we acknowledge that preferences vary widely, encompassing budget, location, property type, and more. That's precisely why we're here.</h4>
         <br/>
         <h4 className="text-2xl px-6 text-white">Our team meticulously assesses each property we acquire and source, aligning them with your specific criteria. This personalized approach ensures that our service is tailored to your individual requirements.</h4>
+      </main>
+      <main className="px-6 py-20">
+        <h2 className="text-4xl md:text-5xl mb-20 text-center">Our Services</h2>
+        <h4 className="text-2xl px-6">With extensive experience in the industry, we boast efficiency that allows us to grasp your investment needs swiftly. Following a brief conversation, we promptly begin sending you top-notch opportunities tailored to your criteria.</h4>
+        <br/>
+        <h4 className="text-2xl px-6">Our unparalleled customer service guarantees a seamless property purchasing process. We take care of every detail, ensuring a hassle-free experience for you, making the entire process as effortless as possible.</h4>
+        <br/>
+        <h4 className="text-2xl px-6">Intrigued? We trust that we've persuaded you of the merits of property investment as an optimal destination for your funds.</h4>
+        <br/>
+        <h4 className="text-2xl px-6">Outlined below are some of the property investment options readily available for you to explore:</h4>
+        <br/>
+        <ol className="pl-10 list-decimal">
+          <li>
+            Rent to Rent
+            <ol className="pl-5 list-lower_alpha">
+              <li>Serviced Accommodation</li>
+              <li>Home of Multiple Occupancy</li>
+            </ol>
+          </li>
+          <li>Below Market Value properties</li>
+          <li>Lease Option Agreements </li>
+          <li>Commercial Conversions</li>
+          <li>Land developments</li>
+        </ol>
+      </main>
+      <main className="px-6 py-20 bg-black">
+        <h2 className="text-4xl md:text-5xl mb-20 text-center text-white">What is our process?</h2>
+        <h4 className="text-2xl px-6 text-white">Interested in joining our investor database or gaining access to our exclusive Source To Order club, where you can explore some of the finest property deals available? Understanding our methodology is crucial.</h4>
+        <div className="text-center">
+          <a href="/questionnaire" className="button-signup text-white mt-5 rounded-md mb-5 md:mb-0">Join Our Club</a>
+        </div>
+        <h4 className="text-2xl px-6 text-white mt-5">We function as a prominent property sourcing entity in the UK, boasting an extensive network of hundreds of investors, agents, contractors and financiers nationwide.</h4>
+      </main>
+      <main className="px-6 py-20">
+        <h2 className="text-4xl md:text-5xl mb-20 text-center">What do we provide?</h2>
+        <h4 className="text-2xl px-6">Seeking your ideal property investment? Recognizing the complexities of the property investment arena, we provide two distinct levels of service tailored to accommodate your unique requirements and investment objectives.</h4>
+        <div className="text-center mt-5">
+          <a href="/services"><h4 className="text-2xl text-red-700 text-bold underline decoration-dotted">Click here to know more about our services</h4></a>
+        </div>
       </main>
       <Footer />
     </div>

@@ -6,7 +6,7 @@ import "../css/index.css";
 const IndexPage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <main className="px-6 md:px-24 index-main h-svh">
         <header className="md:w-2/3 md:pt-16">
           <h1 className="main-header text-6xl md:text-7xl font-bold">Are you looking to invest your money in property?</h1>
@@ -86,7 +86,8 @@ const IndexPage = () => {
           <a href="/services"><h4 className="text-2xl text-red-700 text-bold underline decoration-dotted">Click here to know more about our services</h4></a>
         </div>
       </main>
-      <Footer />
+      <Footer /> */}
+      Under construction
     </div>
   )
 }
